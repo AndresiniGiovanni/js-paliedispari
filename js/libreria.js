@@ -3,7 +3,7 @@ function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function isEven(str) {
+function isEven(num) {
   if (num % 2 === 0) {
     return true;
   } else {
@@ -33,3 +33,8 @@ function palindromoReverse(str) {
   // }
   return parolaGirata === parola;
 }
+
+
+
+
+
